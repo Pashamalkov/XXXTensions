@@ -1,0 +1,6 @@
+framework module XXXTensions {
+  umbrella header "XXXTensions-umbrella.h"
+
+  export *
+  module * { export * }
+}

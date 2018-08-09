@@ -1,0 +1,6 @@
+use_frameworks!
+target 'XXXTensions_Tests' do
+  pod 'XXXTensions', :path => '../'
+  
+  
+end

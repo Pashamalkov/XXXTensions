@@ -1,0 +1,16 @@
+PODS:
+  - XXXTensions (0.1.0)
+
+DEPENDENCIES:
+  - XXXTensions (from `../`)
+
+EXTERNAL SOURCES:
+  XXXTensions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XXXTensions: 495ee8c143cff1366cab301f486eff7bc04def6e
+
+PODFILE CHECKSUM: 636d13ddb588de99f090c1784f3eaf4d81dc3945
+
+COCOAPODS: 1.5.3
