@@ -39,7 +39,7 @@ public extension Date {
     }
 }
 
-extension Date {
+public extension Date {
     func differenceInSeconds(from date: Date) -> Int {
         let seconds = Calendar.current.dateComponents([.second], from: date, to: self).second ?? 0
         return labs(seconds)
