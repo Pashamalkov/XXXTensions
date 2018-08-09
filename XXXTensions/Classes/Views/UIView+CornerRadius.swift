@@ -14,7 +14,7 @@ protocol CornerRadius {
     func makeBorderWithCorner(radius: CGFloat, borderColor: UIColor, borderWidth: CGFloat)
 }
 
-extension UIView: CornerRadius
+public extension UIView: CornerRadius
 {
     func makeBorderWithCorner(radius: CGFloat, borderColor: UIColor, borderWidth: CGFloat) {
         let rect = self.bounds;

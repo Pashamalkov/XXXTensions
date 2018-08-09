@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Optional
+public extension Optional
 {
     @discardableResult
     func ifSome(_ handler: (Wrapped) -> Void) -> Optional {

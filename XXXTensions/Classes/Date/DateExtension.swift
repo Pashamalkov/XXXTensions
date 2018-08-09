@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Date {
+public extension Date {
     
     static func minimumDate() -> Date {
         let formatter = DateFormatter()

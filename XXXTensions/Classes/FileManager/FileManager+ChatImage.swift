@@ -8,9 +8,7 @@
 
 import Foundation
 
-import Foundation
-
-extension FileManager {
+public extension FileManager {
     static func filesTemporaryDirectory() -> URL {
         return URL(fileURLWithPath: NSTemporaryDirectory())
     }

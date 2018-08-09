@@ -9,7 +9,7 @@
 import Foundation
 import CoreGraphics.CGBase
 
-extension String {
+public extension String {
     subscript (i: Int) -> Character {
         return self[index(startIndex, offsetBy: i)]
     }
@@ -37,7 +37,7 @@ extension String {
         return self[startIndex ..< end]
     }
 }
-extension Substring {
+public extension Substring {
     subscript (i: Int) -> Character {
         return self[index(startIndex, offsetBy: i)]
     }
@@ -66,7 +66,7 @@ extension Substring {
     }
 }
 
-extension String {
+public extension String {
     func height(width: CGFloat, attributes: [NSAttributedStringKey : Any]? = nil) -> CGFloat {
         let constraintRect = CGSize(width: width, height: .greatestFiniteMagnitude)
         let boundingBox = self.boundingRect(with: constraintRect,

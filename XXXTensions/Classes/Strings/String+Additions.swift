@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
     func initials() -> String? {
         let components = self.components(separatedBy: " ")
         guard !components.isEmpty else { return nil }
@@ -16,7 +16,7 @@ extension String {
     }
 }
 
-extension String {
+public extension String {
     var digits: String {
         let pattern = "[^0-9]" // not a number
         return replacingOccurrences(of: pattern, with: "", options: .regularExpression)

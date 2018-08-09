@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension DateFormatter {
+public extension DateFormatter {
     
     static func doc_noTimeFormatMonthDay() -> DateFormatter {
         let dateFormatter = DateFormatter()

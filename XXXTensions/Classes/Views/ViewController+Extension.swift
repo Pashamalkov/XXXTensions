@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
     var safeAreaTopInset: CGFloat {
         if #available(iOS 11.0, *) {
             return view.safeAreaInsets.top

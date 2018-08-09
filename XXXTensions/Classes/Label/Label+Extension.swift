@@ -22,7 +22,7 @@ public func countLinesOf(text: String, font: UIFont, in bounds: CGSize? = UIScre
     return Int(ceil(CGFloat(textSize.height) / font.lineHeight))
 }
 
-extension UILabel {
+public extension UILabel {
     func calculateHeightForLabelWith(stepForRow: Float) -> Float {
         return stepForRow * Float(countLinesOf(text: text ?? "", font: font))
     }
