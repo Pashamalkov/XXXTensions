@@ -10,11 +10,8 @@ import UIKit
 // https://stackoverflow.com/questions/25551053/cornerradius-with-border-some-glitch-at-border
 // Solution for glitch bug in CA, when used on UIImageView with borders.
 
-protocol CornerRadius {
-    func makeBorderWithCorner(radius: CGFloat, borderColor: UIColor, borderWidth: CGFloat)
-}
 
-public extension UIView: CornerRadius
+public extension UIView
 {
     func makeBorderWithCorner(radius: CGFloat, borderColor: UIColor, borderWidth: CGFloat) {
         let rect = self.bounds;
